@@ -4,8 +4,8 @@ import pandas as pd
 ## First collecting Schizophrenic patient data
 
 reddit = praw.Reddit(
-    client_id="EgYhtuW9L0CD3LBIgvkvrw",
-    client_secret="BeUvMfWktpPrGVQK5myrTaw8scgnLA",
+    client_id="...",
+    client_secret="...",
     user_agent="Schiz/suicide correlation by /u/NecessaryClassic4135"
 )
 
@@ -37,8 +37,8 @@ study
 from prawcore.exceptions import NotFound
 
 reddit = praw.Reddit(
-    client_id="EgYhtuW9L0CD3LBIgvkvrw",
-    client_secret="BeUvMfWktpPrGVQK5myrTaw8scgnLA",
+    client_id="...",
+    client_secret="...",
     user_agent="Schiz/suicide correlation by /u/NecessaryClassic4135"
 )
 
@@ -74,8 +74,8 @@ mentalhealth
 from prawcore.exceptions import NotFound
 
 reddit = praw.Reddit(
-    client_id="EgYhtuW9L0CD3LBIgvkvrw",
-    client_secret="BeUvMfWktpPrGVQK5myrTaw8scgnLA",
+    client_id="...",
+    client_secret="...",
     user_agent="Schiz/suicide correlation by /u/NecessaryClassic4135"
 )
 
@@ -118,8 +118,8 @@ all_posts.to_csv("all_posts.csv", index=False)
 ## Creating the training data set
 
 reddit = praw.Reddit(
-    client_id="EgYhtuW9L0CD3LBIgvkvrw",
-    client_secret="BeUvMfWktpPrGVQK5myrTaw8scgnLA",
+    client_id="...",
+    client_secret="...",
     user_agent="Schiz/suicide correlation by /u/NecessaryClassic4135"
 )
 
@@ -140,8 +140,8 @@ suicide.to_csv("suicide_data.csv", index=False)
 
 import random
 reddit = praw.Reddit(
-    client_id="EgYhtuW9L0CD3LBIgvkvrw",
-    client_secret="BeUvMfWktpPrGVQK5myrTaw8scgnLA",
+    client_id="...",
+    client_secret="...",
     user_agent="Schiz/suicide correlation by /u/NecessaryClassic4135"
 )
 
